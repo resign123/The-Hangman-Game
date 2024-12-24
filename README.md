@@ -44,6 +44,7 @@ x
 **Logic:**
 
 - Combines entropy-based filtering with the ETAOIN frequency order for initial guesses. ETAOINSHRDLU represents the most common letters in English: E, T, A, O, I, N, S, H, R, D, L, U, etc.
+- Although we have solve the problem of minimizing the search space at last  but what about initial searching ?
 - In the beginning, when there is limited information, the strategy prioritizes frequent letters. If a particular letter appears in most of the matching words without wasting any guess, that letter is selected based on the priority order of the most common letters (ETAOINSHRDLU).
 - Initial guesses prioritize frequent letters, and then the strategy transitions to entropy calculations for word filtering.
 
